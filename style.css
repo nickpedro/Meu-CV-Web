@@ -21,7 +21,7 @@ body{
 .resume-box{
     width: 800px;
     height: 1000px;
-    margin: 100px auto;
+    margin: 150px auto;
     background: var(--white);
     box-shadow: 5px 21px 20px 20px #3d3f4238;
 }
@@ -57,7 +57,7 @@ body{
 .name{
     color: var(--gray);
     text-align: center;
-    margin-top: -34px;
+    margin-top: -50px;
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: 400;
@@ -67,7 +67,7 @@ body{
     color: var(--blue);
 }
 .n-p{
-    width: 180px;
+    width: 220px;
     margin: 0 auto;
     text-align: center;
     padding: 7px;
@@ -81,19 +81,19 @@ body{
     margin-top: 50px;
 }
 .heading{
-    width: 180px;
+    width: 220px;
     margin: 0 auto;
     padding: 2px;
     border-bottom: 1px solid var(--gray);
     border-top: 1px solid var(--gray);
     color: var(--gray);
-    margin-top: 11px;
+    margin-top:11px;
     text-transform: uppercase;
     font-size: 18px;
 }
 .p1{
     color: var(--gray);
-    width: 184px;
+    width: 220px;
     margin: 0 auto;
     margin-top: 25px;
     font-size: 15px;
@@ -136,6 +136,7 @@ body{
     font-size: 18px;
     font-weight: bolder;
     margin-left: 50px;
+    margin-top: -40px;
     line-height: 18px;
 }
 .p3{
@@ -164,6 +165,27 @@ body{
     font-size: 12px;
     color:var(--lightgray);
 }
+
+.btn-Next{
+    align-items: end;
+    text-align: end;
+    margin-top: -120px;
+}
+#btnProximo{
+    border: none;
+    background: var(--white);
+    width: 25px;
+    height: 25px;
+}
+.btn-Back{
+    text-align: end;
+    margin-top: 20px;
+}
+.btn-Back a{
+    color: var(--black);
+    text-decoration: none;
+}
+
 .s-box{
     width: 50%;
     float: left;
@@ -193,7 +215,7 @@ body{
     content: '';
     display: block;
     background: var(--blue);
-    width: 40%;
+    width: 35%;
     height: 100%;
     border-radius: 9px;
 }
@@ -221,7 +243,7 @@ body{
     content: '';
     display: block;
     background: var(--blue);
-    width: 90%;
+    width: 80%;
     height: 100%;
     border-radius: 9px;
 }
